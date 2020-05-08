@@ -19,7 +19,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
+    EditText mSearchBoxEditTex;
+    TextView mUrlDisplayTextView,mSearchResultsTextView;
+    
     // TODO (26) Create an EditText variable called mSearchBoxEditText
 
     // TODO (27) Create a TextView variable called mUrlDisplayTextView
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mSearchBoxEditText=(EditText)findViewById(R.id.
 
         // TODO (29) Use findViewById to get a reference to mSearchBoxEditText
 
